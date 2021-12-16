@@ -12,3 +12,8 @@ def square(number):
     print('square of', number, 'is', number ** 2)
 square(4)
 square(15)
+
+# Write a function with 3 parameter name, age, salary and display it
+def details(name, age, salary):
+    print('Hii', name, 'your age is', age, 'and your salary is', salary)
+details('swapnil', 24, 90000)
