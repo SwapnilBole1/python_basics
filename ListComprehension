@@ -32,3 +32,6 @@ print([i[-1] for i in list if i.startswith('s')])
 list = ['swapnil', 'akshay', 'sunita', 'hema', 'tai', 'ganpat']
 print([(i.upper(), len(i))for i in list])
 
+# Using list comprehension for splitting letter in string list
+print([i for i in 'india is my country'])
+
