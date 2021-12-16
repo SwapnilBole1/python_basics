@@ -1,1 +1,3 @@
+# syntax for declaration -: def function_name(parameter):
+# syntax for calling -: function_name(arguments)
 
