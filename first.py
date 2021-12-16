@@ -1,0 +1,34 @@
+# syntax [expression for i in list/sequence if condition]
+
+# list of square of 1-5 number
+print([i ** 2 for i in range(1, 6)])
+
+# list of square of 1-10 number, only for even number
+print([i ** 2 for i in range(1,11) if i % 2 == 0])
+
+# list of suuare of 1-10 number, only for odd number
+print([i ** 2 for i in range(1,11) if i % 2 != 0])
+
+# fetching numbers from string using list comprehension
+s = 'my no is 0123456789'
+print([i for i in s if i.isdigit()])
+
+# list of combination of square and cube of 1-10 number
+print([(i ** 2, i ** 3)for i in range(1,11)])
+
+# list of first letter or initial of each name in the list
+list = ['swapnil', 'akshay', 'sunita', 'hema', 'tai', 'ganpat']
+print([i[0] for i in list])
+
+# list of first letter of name starting with 's'
+list = ['swapnil', 'akshay', 'sunita', 'hema', 'tai', 'ganpat']
+print([i for i in list if i.startswith('s')])
+
+# list of last letter of name, name starts with 's'
+list = ['swapnil', 'akshay', 'sunita', 'hema', 'tai', 'ganpat']
+print([i[-1] for i in list if i.startswith('s')])
+
+# list of words in uppercase and also length of each word
+list = ['swapnil', 'akshay', 'sunita', 'hema', 'tai', 'ganpat']
+print([(i.upper(), len(i))for i in list])
+
