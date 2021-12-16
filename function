@@ -1,3 +1,9 @@
 # syntax for declaration -: def function_name(parameter):
 # syntax for calling -: function_name(arguments)
 
+# Write a function for addition of two numbers
+def add(a, b):
+    print('addition of two number is', a + b)
+add(2, 3)
+add(12, 31)
+
