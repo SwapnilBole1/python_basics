@@ -30,3 +30,13 @@ def sample(name):
 for i in range(3):
     name = input('Enter your name:')
     sample(name)
+
+# write a function by using input function and for loop, break.
+def sample(name):
+    print('hello', name, 'good morning')
+for i in range(3):
+    name = input('Enter your name:')
+    if name == 'b':
+        break
+    else:
+        sample(name)
