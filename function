@@ -50,3 +50,15 @@ for i in range(3):
         continue
     else:
         sample(name)
+
+# write a function by using input function and while loop, continue.
+def sample(name):
+    print('hello', name, 'Good morning')
+x = 0
+while x < 3:
+    name = input('enter your name:')
+    if name == 'b':
+        continue
+    else:
+        sample(name)
+        x += 1
