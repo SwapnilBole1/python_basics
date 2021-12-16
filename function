@@ -40,3 +40,13 @@ for i in range(3):
         break
     else:
         sample(name)
+
+# write a function by using input function and for loop, continue.
+def sample(name):
+    print('hello', name, 'good morning')
+for i in range(3):
+    name = input('Enter your name:')
+    if name == 'b':
+        continue
+    else:
+        sample(name)
