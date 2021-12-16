@@ -23,3 +23,10 @@ def sample(name):
     print('hello', name, 'good morning')
 name = input('Enter your name:')
 sample(name)
+
+# write a function by using input function and for loop
+def sample(name):
+    print('hello', name, 'good morning')
+for i in range(3):
+    name = input('Enter your name:')
+    sample(name)
