@@ -78,3 +78,12 @@ def test(x, y):
 a, b = test(7, 5)
 print('multiplication is',a)
 print('division is', b )
+
+# WAP to find out factorial of given number.
+def fact(number):
+    result = 1
+    for i in range(number):
+        result *= number
+        number -= 1
+    print(result)
+fact(5)
