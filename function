@@ -71,3 +71,10 @@ def test(number):
         return 'odd number'
 print(test(4))
 print(test(3))
+
+# WAP to find out multiplication and division of two numbers.
+def test(x, y):
+    return x * y, x / y
+a, b = test(7, 5)
+print('multiplication is',a)
+print('division is', b )
