@@ -98,3 +98,16 @@ def fact(number):
 n = int(input('Enter the Number:'))
 for i in range(1, n + 1):
     print('factorial of', i, 'is', fact(i))
+
+# WAF for addition of given multiple no. with variable length positional arguments and make new list.
+k = []
+def addition(*args):
+    add = 0
+    for i in args:
+        add += i
+    print(add)
+    k.append(add)
+addition(10, 20, 30)
+addition(2, 3, 4)
+addition(23, 53, 40)
+print('final list:',k)
