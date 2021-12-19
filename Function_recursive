@@ -7,3 +7,13 @@ def fact(n):
         result = n * fact(n-1)
         return(result)
 print(fact(6))
+
+# WAP to find out addition of 1-n numbers using recursion
+def addition(n):
+    result = 0
+    if n == 0:
+        return result
+    else:
+        result = n + addition(n-1)
+        return(result)
+print(addition(10))
