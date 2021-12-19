@@ -1,1 +1,12 @@
+# want to assign new name to the existing function nothing but function aliasing.
 
+def sample(name):
+    print('hello', name, 'good morning')
+print(sample)
+print(id(sample))
+print('--------------')
+s = sample
+print(s)
+print(id(s))
+s('swapnil')
+sample('akshay')
