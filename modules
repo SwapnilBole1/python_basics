@@ -32,3 +32,17 @@ if ch == 3:
 from shreeram.navneet import nav1
 print('welcome', nav1.name, 'to cash counter')
 print('Your bill amount is', nav1.total_price)
+
+# output
+Enter your name: swapnil
+Hello... swapnil
+**** WELCOME TO NAVNEET DEPARTMENT ****
+we have following category
+1-1st digest
+2-2nd digest
+3-3rd digest
+please select your class: 1
+Enter your quantity: 2
+Total price is: 1600
+welcome swapnil to cash counter
+Your bill amount is 1600
