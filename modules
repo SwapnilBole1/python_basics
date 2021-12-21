@@ -1,2 +1,34 @@
 # modules nothing but python file
 # directory name = modules
+# 2 subdiectories 1) counter 2) nav1
+
+# in nav1
+import time
+name = input('Enter your name: ')
+print('Hello...',name)
+print('**** WELCOME TO NAVNEET DEPARTMENT ****')
+time.sleep(2)
+print('we have following category')
+time.sleep(2)
+print('1-1st digest\n2-2nd digest\n3-3rd digest')
+ch = int(input('please select your class: '))
+if ch == 1:
+    sell_price = 800
+    quantity= int(input('Enter your quantity: '))
+    total_price = sell_price * quantity
+    print('Total price is:',total_price)
+if ch == 2:
+    sell_price = 900
+    quantity= int(input('Enter your quantity: '))
+    total_price = sell_price * quantity
+    print('Total price is:',total_price)
+if ch == 3:
+    sell_price = 1000
+    quantity= int(input('Enter your quantity: '))
+    total_price = sell_price * quantity
+    print('Total price is:',total_price)
+    
+# in counter 
+from shreeram.navneet import nav1
+print('welcome', nav1.name, 'to cash counter')
+print('Your bill amount is', nav1.total_price)
