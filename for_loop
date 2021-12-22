@@ -22,3 +22,9 @@ for i in s:
     else:
         print(i, 'is odd number')
 
+# WAP to accept list elements from user and do the addition of number.
+s = eval(input('Enter list: '))
+a = 0
+for i in s:
+    a += i
+print(a)
