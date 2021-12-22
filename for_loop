@@ -6,3 +6,11 @@ for i in s:
     if i.isdigit():
         print(i, end='')
 
+# WAP to add the number from string
+s = 'sdfdg265gvgfshfgt8gshsh255625'
+a = 0
+for i in s:
+    if i.isdigit():
+        a += int(i)
+print(a)
+
