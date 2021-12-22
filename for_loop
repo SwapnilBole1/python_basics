@@ -1,3 +1,8 @@
 # syntax :- for variable in sequence:
 
+# write a program to fetch number from string
+s = 'hi am swapnil my mobile number is:1234567890'
+for i in s:
+    if i.isdigit():
+        print(i, end='')
 
