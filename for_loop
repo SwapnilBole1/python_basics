@@ -1,16 +1,24 @@
 # syntax :- for variable in sequence:
 
-# write a program to fetch number from string
+# write a program to fetch number from string.
 s = 'hi am swapnil my mobile number is:1234567890'
 for i in s:
     if i.isdigit():
         print(i, end='')
 
-# WAP to add the number from string
+# WAP to add the number from string.
 s = 'sdfdg265gvgfshfgt8gshsh255625'
 a = 0
 for i in s:
     if i.isdigit():
         a += int(i)
 print(a)
+
+# WAP to find out even and odd number from list.
+s = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for i in s:
+    if i % 2 == 0:
+        print(i, 'is even number')
+    else:
+        print(i, 'is odd number')
 
